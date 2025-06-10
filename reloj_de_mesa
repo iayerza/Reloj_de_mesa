@@ -1,0 +1,13 @@
+# Abre la terminal y ubícate en la carpeta
+cd ruta/al/proyecto/reloj-de-mesa
+
+# Inicializa el repositorio
+git init
+git add .
+git commit -m "Primera versión del reloj de mesa"
+
+# Conecta con GitHub (cambia usuario y repo según el tuyo)
+git remote add origin https://github.com/tu-usuario/reloj-de-mesa.git
+
+# Sube el contenido
+git push -u origin master
